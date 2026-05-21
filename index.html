@@ -346,7 +346,7 @@ footer span{color:var(--cyan)}
         <p class="hero-desc">Étudiant en BTS SIO option SISR en alternance chez Lafont Paris. Passionné par l'infrastructure IT, la cybersécurité et l'automatisation des systèmes.</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#realisation">Voir mes réalisations →</a>
-          <a class="btn btn-outline" href="#contact">Me contacter</a>
+          <a class="btn btn-outline" href="Tableau_de_Synthese_Wissam.pdf" target="_blank">📋 Tableau de Synthèse</a>
           <a class="btn btn-cv" href="CV_Wissam_MANAA.pdf" target="_blank" download="CV_Wissam_MANAA.pdf">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
             Mon CV
@@ -545,7 +545,7 @@ footer span{color:var(--cyan)}
           <li>Assistance téléphonique et support à distance</li>
           <li>Rédiger et respecter les procédures</li>
           <li>Adapter le discours aux utilisateurs</li>
-          <li><strong style="color:var(--text)">Autonomie, rigueur, organisation</strong></li>
+          <li>Autonomie, rigueur, organisation</li>
           <li>Bon sens du relationnel et de l'analyse</li>
         </ul>
       </div>
@@ -616,7 +616,7 @@ footer span{color:var(--cyan)}
         <div class="real-body">
           <div class="real-meta"><span class="tag">Réseau</span><span class="real-date">2024-2025</span></div>
           <h3>Mise en place d'un outil de supervision Zabbix</h3>
-          <p>Déploiement de Zabbix 6.4 sur Debian, supervision d'hôtes Linux et pfSense via ICMP, alertes mail via SMTP Gmail.</p>
+          <p>Déploiement de Zabbix, supervision d'hôtes Linux et pfSense via ICMP, alertes mail via SMTP Postfix.</p>
           <div class="real-tags"><span class="tag">Zabbix 6.4</span><span class="tag green">ICMP / SNMP</span><span class="tag">Debian</span><span class="tag green">Alertes</span></div>
           <a class="btn-doc" href="Zabbix_Documentation.pdf" target="_blank">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
@@ -633,7 +633,7 @@ footer span{color:var(--cyan)}
         <div class="real-body">
           <div class="real-meta"><span class="tag green">Sécurité</span><span class="real-date">2024-2025</span></div>
           <h3>Configuration d'un pare-feu pfSense</h3>
-          <p>Mise en place de pfSense comme pare-feu et routeur inter-zones — interfaces WAN/LAN/DMZ, règles firewall et NAT Outbound.</p>
+          <p>Mise en place de pfSense comme pare-feu et routeur inter-zones — interfaces WAN/LAN/DMZ et règles firewall.</p>
           <div class="real-tags"><span class="tag green">pfSense</span><span class="tag green">Firewall</span><span class="tag">NAT</span><span class="tag">DMZ</span></div>
           <a class="btn-doc" href="pfSense_Documentation.pdf" target="_blank">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
@@ -847,31 +847,12 @@ footer span{color:var(--cyan)}
       <div class="divider"></div>
       <p class="section-desc">N'hésitez pas à me contacter pour toute question concernant mon portfolio ou mon parcours.</p>
     </div>
-    <div class="contact-layout">
-      <div class="contact-info">
+    <div style="display:flex;justify-content:center;padding-bottom:3rem">
+      <div class="contact-info" style="max-width:480px;width:100%">
         <div class="contact-card"><div class="contact-card-icon">📧</div><div><h4>Email</h4><a href="mailto:wissam.manaa06@gmail.com">wissam.manaa06@gmail.com</a></div></div>
         <div class="contact-card"><div class="contact-card-icon">📱</div><div><h4>Téléphone</h4><p>07 49 74 03 56</p></div></div>
         <div class="contact-card"><div class="contact-card-icon">📍</div><div><h4>Localisation</h4><p>Paris, France</p></div></div>
         <div class="contact-card"><div class="contact-card-icon">🎓</div><div><h4>Établissement</h4><p>CFA INSTA — Paris 75002</p></div></div>
-      </div>
-      <div class="contact-form">
-        <h3>Envoyer un message</h3>
-        <div id="form-content">
-          <div class="form-row">
-            <div class="form-group"><label class="form-label" for="fname">Prénom</label><input type="text" id="fname" class="form-input" placeholder="Jean"></div>
-            <div class="form-group"><label class="form-label" for="lname">Nom</label><input type="text" id="lname" class="form-input" placeholder="Dupont"></div>
-          </div>
-          <div class="form-group"><label class="form-label" for="femail">Email</label><input type="email" id="femail" class="form-input" placeholder="jean.dupont@email.com"></div>
-          <div class="form-group"><label class="form-label" for="fsujet">Sujet</label><input type="text" id="fsujet" class="form-input" placeholder="Question sur votre portfolio..."></div>
-          <div class="form-group"><label class="form-label" for="fmsg">Message</label><textarea id="fmsg" class="form-textarea" placeholder="Votre message..."></textarea></div>
-          <button class="btn btn-primary" style="width:100%;justify-content:center" onclick="submitForm()">Envoyer le message →</button>
-        </div>
-        <div class="form-success" id="form-success">
-          <div style="font-size:2rem;margin-bottom:1rem">✓</div>
-          <div>Message envoyé avec succès !</div>
-          <div style="color:var(--text-dim);margin-top:.5rem;font-family:var(--font-body);font-size:.85rem">Je vous répondrai dans les plus brefs délais.</div>
-          <button class="btn btn-outline" style="margin-top:1.5rem" onclick="resetForm()">Envoyer un autre message</button>
-        </div>
       </div>
     </div>
   </div>
